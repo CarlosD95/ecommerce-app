@@ -1,0 +1,41 @@
+.contact{
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    overflow: hidden;
+
+    h5{
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        margin-left: 200px;
+    }
+
+    .email{
+        margin-left: 300px;
+        display: flex;
+
+        input{
+            padding: 10px;
+            font-size: 16px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        button{
+            font-size: 16px;
+            background-color: teal;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            border: none;
+            color: white;
+            padding: 10px;
+        }
+    }
+
+    .icons{
+        margin: 20px 20px 20px 300px; 
+        gap: 10px;
+        display: flex;
+    }
+}
